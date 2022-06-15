@@ -598,5 +598,54 @@ background-color: black;
 }  
 
 
+.search-container{
+    background: rgba(214, 211, 211, 0.415);
+    width: 90%;
+    margin: 30px auto;
+    padding: 6px 10px 6px 30px;
+    border-radius: 50px;
+}
+
+.search-container form{
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+
+}
+
+.search-container form input{
+    display: block;
+    border: 0;
+    outline: none;
+    background: transparent;
+
+}
+
+.search-container form button{
+
+    background: #ff5361;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.search-container form button img{
+
+    margin-top: 7px; 
+    width: 15px; 
+
+}
+
+
+.loc_input{
+    flex: 1;
+}
+
+.search-container form label{
+    font-weight: 600;
+}
 
 
